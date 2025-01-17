@@ -2339,7 +2339,7 @@ EzHub.Github.MouseButton1Click:Connect(function()
 
 	if setclipboard then
 		EzHub.Github.Text = "Copied Github...";
-		setclipboard("https://github.com/debug420/Ez-Hub");
+		setclipboard("https://github.com/fortnutlover132/ezhub");
 		ezlib.newNotif(ezlib.enum.notifType.longText, "Copied to clipboard. Paste link in browser to view the Github rep...").play().delete();
 		wait(1);
 		EzHub.Github.Text = oldTextGithub;
